@@ -92,6 +92,29 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textSize="18sp"
+                    android:text="Umur:"/>
+
+                <TextView
+                    android:id="@+id/txtUmur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="18"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
                     android:text="Email:"/>
 
                 <TextView
@@ -163,6 +186,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:text="TELEPON"/>
+
+            <Button
+                android:id="@+id/btnAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="ABOUT"/>
 
         </LinearLayout>
 

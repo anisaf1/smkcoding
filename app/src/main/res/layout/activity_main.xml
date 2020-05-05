@@ -36,6 +36,13 @@
             android:entries="@array/jenis_kelamin"/>
 
         <EditText
+            android:id="@+id/editUmur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Umur (th)"
+            android:layout_margin="16dp"/>
+
+        <EditText
             android:id="@+id/editEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
