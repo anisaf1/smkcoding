@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Biodata Diri"
+            android:text="@string/biodata"
             android:layout_gravity="center_horizontal"
             android:layout_margin="16dp"
             android:fontFamily="casual"
@@ -24,44 +24,56 @@
         <EditText
             android:id="@+id/editNama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nama"
+            android:layout_height="50dp"
+            android:background="@drawable/radius"
+            android:hint="@string/nama"
+            android:padding="8dp"
             android:layout_margin="16dp"/>
 
         <Spinner
             android:id="@+id/spinnerGender"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/radius"
             android:layout_margin="16dp"
             android:entries="@array/jenis_kelamin"/>
 
         <EditText
             android:id="@+id/editUmur"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Umur (th)"
-            android:layout_margin="16dp"/>
+            android:layout_height="50dp"
+            android:background="@drawable/radius"
+            android:hint="@string/umur"
+            android:padding="8dp"
+            android:layout_margin="16dp"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/editEmail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Email"
+            android:layout_height="50dp"
+            android:background="@drawable/radius"
+            android:hint="@string/email"
+            android:padding="8dp"
             android:layout_margin="16dp"/>
 
         <EditText
             android:id="@+id/editTelp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Telp"
+            android:layout_height="50dp"
+            android:background="@drawable/radius"
+            android:hint="@string/telp"
+            android:padding="8dp"
             android:layout_margin="16dp"
             android:inputType="phone"/>
 
         <EditText
             android:id="@+id/editAddress"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:hint="Alamat"
+            android:layout_height="100dp"
+            android:background="@drawable/radius_alamat"
+            android:hint="@string/alamat"
+            android:padding="8dp"
             android:layout_margin="16dp"
             android:inputType="textMultiLine"/>
 
@@ -69,7 +81,9 @@
             android:id="@+id/btnSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SIMPAN"
+            android:background="@drawable/radius_button"
+            android:text="@string/simpan"
+            android:textColor="@color/colorWhite"
             android:layout_margin="16dp"/>
 
     </LinearLayout>

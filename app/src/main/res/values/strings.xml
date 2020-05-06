@@ -5,4 +5,26 @@
         <item>Laki Laki</item>
         <item>Perempuan</item>
     </string-array>
+
+<!--    Biodata-->
+    <string name="biodata">Biodata Diri</string>
+    <string name="nama">Nama</string>
+    <string name="jk">Jenis Kelamin</string>
+    <string name="email">Email</string>
+    <string name="umur">Umur(th)</string>
+    <string name="telp">Telp</string>
+    <string name="alamat">Alamat</string>
+
+<!--    Button-->
+    <string name="simpan">SIMPAN</string>
+    <string name="about">ABOUT</string>
+    <string name="dial">TELPON</string>
+    <string name="edit">EDIT NAMA</string>
+
+<!--    About-->
+    <string name="namaku">Anisa Fatmawati</string>
+    <string name="telpku">085791509086</string>
+    <string name="emailku">fatmawatianisa64@gmail.com</string>
+    <string name="alamatku">Jalan Ki Ageng Gribig V / 35 RT 06 RW 05 Kota Malang</string>
+
 </resources>

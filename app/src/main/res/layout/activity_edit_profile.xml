@@ -17,15 +17,19 @@
     <EditText
         android:id="@+id/editNamaProfil"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/radius"
+        android:padding="8dp"
         android:layout_margin="16dp"
-        android:hint="Nama"/>
+        android:hint="@string/nama"/>
 
     <Button
         android:id="@+id/btnEditSimpan"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/radius_button"
         android:layout_margin="16dp"
-        android:text="SIMPAN"/>
+        android:text="@string/simpan"
+        android:textColor="@color/colorWhite"/>
 
 </LinearLayout>
